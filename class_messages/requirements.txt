@@ -1,0 +1,8 @@
+# Local Class Messages Task Extraction Dependencies
+# Tested with Python 3.11.9 on Windows
+# Local runtime requirement: Ollama running with qwen2.5:1.5b
+#
+# extract.py uses only Python standard library (json, urllib, re, etc.)
+# No third-party Python packages are required.
+# pytest is needed only for running the test suite.
+pytest==8.3.4
